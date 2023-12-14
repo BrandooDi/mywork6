@@ -12,4 +12,4 @@ if __name__ == "__main__":
         exit(2)
     else:
         print(s)
-              exit(1)
+        exit(1)
