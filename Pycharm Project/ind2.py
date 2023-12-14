@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = str(input("Введите слово: "))
     s = a.split()
     c = list(a)
@@ -14,9 +14,9 @@ if __name__ == '__main__':
             exit(2)
         else:
             print(c)
-            r = ''
+            r = ""
             for i in enumerate(c, 0):
                 j = i[0]
                 if i[0] % 2 == 0:
-                    r += a[j+1] + a[j]
+                    r += a[j + 1] + a[j]
             print("Результат работы программы: ", r)

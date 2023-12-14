@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = str(input("Введите фразу: "))
     s = 0
     a = list(a)
@@ -12,4 +12,4 @@ if __name__ == '__main__':
         exit(2)
     else:
         print(s)
-        exit(1)
+                                  exit(1)
